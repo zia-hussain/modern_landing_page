@@ -41,7 +41,7 @@ export default function SignUpModal() {
       </div>
       <div className="bg-primary-1400 flex flex-col justify-between gap-y-24 bg-[url('../src/assets/Noise.webp')] bg-repeat p-10 max-md:px-6 max-md:py-8 max-sm:gap-y-16">
         <button
-          className="border-primary-75 hover:bg-primary-75 group transition-properties ml-auto w-fit cursor-pointer rounded-2xl border-2 p-3"
+          className="border-primary-75 hover:bg-primary-75 group transition-properties ml-auto w-fit cursor-pointer rounded-xl border-1 p-3"
           onClick={() => setActiveModal("")}
         >
           <Close
@@ -79,7 +79,7 @@ export default function SignUpModal() {
             onClick={() => setChecked((curr) => !curr)}
           >
             <button
-              className={`border-primary-100 transition-properties mr-2 inline-flex h-4 w-4 cursor-pointer items-center justify-center rounded-sm border-2 ${checked && "bg-primary-100"}`}
+              className={`border-primary-100 transition-properties mr-2 inline-flex h-4 w-4 cursor-pointer items-center justify-center rounded-sm border-1 ${checked && "bg-primary-100"}`}
             >
               <Checkmark className="stroke-primary-1500" />
             </button>
