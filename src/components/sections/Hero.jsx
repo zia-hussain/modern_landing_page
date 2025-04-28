@@ -17,7 +17,7 @@ export default function Hero() {
           saving you time and boosting productivity
         </p>
         <button
-          className="text-primary-1300 bg-primary-500 border-primary-500 hover:border-primary-50 hover:bg-primary-50 transition-properties primary-glow-hover primary-glow group flex cursor-pointer items-center gap-x-3 rounded-full border-2 px-8 py-3.5 max-xl:gap-x-2 max-xl:px-6 max-xl:py-3"
+          className="text-primary-1300 bg-primary-500 border-primary-500 hover:border-primary-50 hover:bg-primary-50 transition-properties primary-glow-hover primary-glow group flex cursor-pointer items-center gap-x-3 rounded-full border-1 px-8 py-3.5 max-xl:gap-x-2 max-xl:px-6 max-xl:py-3"
           onClick={() => setActiveModal("sign-up")}
         >
           <p className="text-lg/8 max-xl:text-base/loose">Get Started</p>
