@@ -42,7 +42,7 @@ export default function FAQs() {
           {frequentlyAskedQuestions.map((obj) => (
             <li key={obj.id}>
               <button
-                className={`border-primary-50 text-primary-50 transition-properties cursor-pointer rounded-full border-2 px-8 py-3.5 text-lg/8 max-xl:px-6 max-xl:text-base/loose max-sm:py-3 ${
+                className={`border-primary-50 text-primary-50 transition-properties cursor-pointer rounded-full border-1 px-8 py-3.5 text-lg/8 max-xl:px-6 max-xl:text-base/loose max-sm:py-3 ${
                   obj.category === category &&
                   "bg-primary-500 text-primary-1300 border-primary-500 primary-glow"
                 } ${obj.category !== category && "hover:bg-primary-50 hover:text-primary-1300"}`}
