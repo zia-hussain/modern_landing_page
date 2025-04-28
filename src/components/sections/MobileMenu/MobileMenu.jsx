@@ -49,7 +49,7 @@ function MobileMenu() {
       >
         <div>
           <button
-            className="border-primary-75 hover:bg-primary-75 group transition-properties mr-auto w-fit cursor-pointer rounded-2xl border-2 p-3"
+            className="border-primary-75 hover:bg-primary-75 group transition-properties mr-auto w-fit cursor-pointer rounded-2xl border-1 p-3"
             onClick={() => setMobileMenuOpened(false)}
           >
             <Close
@@ -73,12 +73,12 @@ function MobileMenu() {
           </ul>
         </div>
         <div className="flex flex-col gap-y-3">
-          <button className="border-primary-50 transition-properties text-primary-50 hover:bg-primary-50 hover:text-primary-1300 box-border cursor-pointer rounded-full border-2 px-6 py-3 text-base/loose font-normal">
+          <button className="border-primary-50 transition-properties text-primary-50 hover:bg-primary-50 hover:text-primary-1300 box-border cursor-pointer rounded-full border-1 px-6 py-3 text-base/loose font-normal">
             Login
           </button>
           <button
             onClick={handleGetStarted}
-            className="bg-primary-500 border-primary-500 text-primary-1300 primary-glow hover:border-primary-50 hover:bg-primary-50 primary-glow-hover transition-properties cursor-pointer rounded-full border-2 px-6 py-3 text-base/loose font-normal"
+            className="bg-primary-500 border-primary-500 text-primary-1300 primary-glow hover:border-primary-50 hover:bg-primary-50 primary-glow-hover transition-properties cursor-pointer rounded-full border-1 px-6 py-3 text-base/loose font-normal"
           >
             Get Started
           </button>
