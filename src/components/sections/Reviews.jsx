@@ -7,7 +7,7 @@ export default function Reviews() {
         {reviews.map((review) => (
           <li key={review.id} className="-mr-4 last:mr-0">
             <img
-              className="border-primary-100 h-12 rounded-full border-2 max-xl:h-10"
+              className="border-primary-100 h-12 rounded-full border-1 max-xl:h-10"
               src={review.src}
               alt={review.alt}
             />
