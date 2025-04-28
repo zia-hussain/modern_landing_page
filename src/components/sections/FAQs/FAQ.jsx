@@ -13,7 +13,7 @@ export default function FAQ({ question, activeQuestion, handleQuestionClick }) {
         className="flex w-full cursor-pointer items-center"
         onClick={() => handleQuestionClick(question.id)}
       >
-        <div className="border-primary-50 mr-6 rounded-xl border-2 p-3.5 max-sm:mr-4 max-sm:p-3">
+        <div className="border-primary-50 mr-6 rounded-xl border-1 p-3.5 max-sm:mr-4 max-sm:p-3">
           <question.Icon
             width={2}
             className="stroke-primary-50"
