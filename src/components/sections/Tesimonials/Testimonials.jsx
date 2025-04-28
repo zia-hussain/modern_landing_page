@@ -28,7 +28,7 @@ export default function Testimonials() {
           <TestimonialList testimonials={test.slice(10, expanded ? 15 : 12)} />
         </div>
         <button
-          className="text-primary-50 border-primary-50 transition-properties hover:bg-primary-50 hover:text-primary-1300 group flex cursor-pointer items-center gap-x-3 rounded-full border-2 px-8 py-3.5 text-lg/8 max-xl:px-6 max-xl:py-3 max-xl:text-base/loose"
+          className="text-primary-50 border-primary-50 transition-properties hover:bg-primary-50 hover:text-primary-1300 group flex cursor-pointer items-center gap-x-3 rounded-full border-1 px-8 py-3.5 text-lg/8 max-xl:px-6 max-xl:py-3 max-xl:text-base/loose"
           onClick={() => setExpanded((curr) => !curr)}
         >
           {expanded ? "Show less" : "Show more"}
